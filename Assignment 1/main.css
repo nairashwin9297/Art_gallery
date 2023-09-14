@@ -158,3 +158,38 @@ footer{
     color:white
 }
 
+
+
+audio{
+    position: absolute;
+    left:650px;
+    bottom: 20px;
+}
+.page_content{
+    padding:20px 160px;
+    text-align: center;
+}
+.image_cotainer{
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+.artist_image{
+    width: 70%;
+    height: 500px;
+}
+.artist_intro{
+    color:white;
+    margin-bottom: 30px;
+    
+}
+.artist_table{
+    color:white;
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin: 0 auto
+}
+.artist_table, th, td {
+    border: 1px solid white; /* Set the border color to white */
+    padding: 8px;
+}
