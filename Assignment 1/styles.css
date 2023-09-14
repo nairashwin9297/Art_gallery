@@ -63,7 +63,9 @@ button:hover{
     width: 500px;
     border-radius: 10px;
     padding-top: 20px;
-    
+    padding-bottom: 20px;
+    padding-right: 30px;   
+     
 }
 .gallery_templete{
     display: flex;
@@ -94,12 +96,16 @@ button:hover{
 }
 footer{
     background-color: white;
+    /* position: absolute;
+    bottom: 0px; */
    
 }
 .footerContainer{
     width: 100%;
     height: 100px;
-    padding: 70px 80px 20px
+    padding: 70px 80px 20px;
+    /* position: absolute; */
+    bottom:0px
 }
 .socialIcons{
     display: flex;
@@ -155,14 +161,25 @@ footer{
     padding-right: 30px;
 }
 .art_desciption{
-    color:white
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    padding: 0px 3px;
+}
+.art_desciption_data{
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
 }
 
 
 
 audio{
     position: absolute;
-    left:650px;
+    width: 800px;
+    left:300px;
     bottom: 20px;
 }
 .page_content{
@@ -177,19 +194,107 @@ audio{
 .artist_image{
     width: 70%;
     height: 500px;
+    border-radius: 20px;
 }
 .artist_intro{
     color:white;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 17px;
     
 }
 .artist_table{
     color:white;
     border: 1px solid white;
     border-collapse: collapse;
-    margin: 0 auto
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
 }
 .artist_table, th, td {
     border: 1px solid white; /* Set the border color to white */
     padding: 8px;
+}
+
+
+
+
+form{
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+summary{
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+input{
+    /* margin-left: 5px; */
+    border: 2px solid white;
+    color: white;
+    /* width: 150px;
+    height: 30px; */
+    /* padding: 5px 5px; */
+}
+.input_name{
+    margin-left: 22px; 
+    width: 250px;
+    height: 30px;
+    
+}
+.input_email{
+    margin-left: 24px; 
+    width: 250px;
+    height: 30px;
+    
+}
+.input_subject{
+    margin-left: 8px; 
+    width: 250px;
+    height: 30px; 
+}
+.input_submit{
+    width: 150px;
+    height: 50px; 
+    border-radius: 3px;
+    font-size: 15px;
+}
+textarea{
+    color:white;
+    width: 850px;
+    height: 300px;
+}
+.contact_details{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.testimony_list{
+    display: flex;
+    padding: 20px 70px;
+}
+.testimony{
+    color:white;
+    border:solid white 5px;
+    height: 600px;
+    padding: 30px 140px;
+    margin: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    border-radius: 40px;
+}
+.reviewer_name{
+    color:white;
 }
