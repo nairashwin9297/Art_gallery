@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Artist</title>
+    <title>Contact</title>
+    <link rel="icon" href="images/Logo.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
+
   <body>
     <header>
       <div class="title_logo">
-        <img class="logo" src="Logo.jpeg" alt="/Logo" />
+        <img class="logo" src="images/Logo.jpeg" alt="Logo" />
         <div>
           <p>Sarah's</p>
           <p>ART</p>
@@ -23,7 +25,7 @@
       <nav>
         <menu class="nav_links">
           <li><a href="home.html">Home</a></li>
-          <li><a href="artist.html">About</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="testimony.html">Testimony</a></li>
         </menu>
       </nav>
@@ -31,58 +33,75 @@
     </header>
 
     <div>
-        <div class="page_content">
-            <p class="contact_details">Email: <a href="mailto:example@example.com">sarah@gmail.com</a></p>
-            <p class="contact_details">Phone number: <a href="tel:+1234567890">+1 (123) 456-7890 </a></p>
-            <details class="form">
-              <summary>If you have any message, click here:</summary>
-              <form>
-                <label for="name">Name:</label>
-                <input class="input_name" type="text" id="name" name="name" required /><br /><br />
-    
-                <label for="email">Email:</label>
-                <input class="input_email" type="email" id="email" name="email" required /><br /><br />
-    
-                <label for="subject">Subject:</label>
-                <input
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  required
-                  class="input_subject"
-                /><br /><br />
-    
-                <label for="message">Message:</label><br />
-                <textarea
-                  id="message"
-                  name="message"
-                  rows="4"
-                  cols="50"
-                  required
-                ></textarea
-                ><br /><br />
-    
-                <input class="input_submit" type="submit" value="Submit" />
-              </form>
-            </details>
-          </div>
+      <div class="page_content">
+        <!-- Contact details -->
+        <p class="contact_details">
+          Email: <a href="mailto:example@example.com">sarah@gmail.com</a>
+        </p>
+        <p class="contact_details">
+          Phone number: <a href="tel:+1234567890">+1 (123) 456-7890 </a>
+        </p>
+        <details class="form">
+          <summary>If you have any message, click here:</summary>
+          <form>
+            <label for="name">Name:</label>
+            <input
+              class="input_name"
+              type="text"
+              id="name"
+              name="name"
+              required
+            /><br /><br />
+
+            <label for="email">Email:</label>
+            <input
+              class="input_email"
+              type="email"
+              id="email"
+              name="email"
+              required
+            /><br /><br />
+
+            <label for="subject">Subject:</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              required
+              class="input_subject"
+            /><br /><br />
+
+            <label for="message">Message:</label><br />
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              cols="50"
+              required
+            ></textarea
+            ><br /><br />
+
+            <input class="input_submit" type="submit" value="Submit" />
+          </form>
+        </details>
+      </div>
     </div>
 
     <footer>
       <div class="footerContainer">
+        <!-- links to social media  -->
         <div class="socialIcons">
           <a href=""><i class="fa-brands fa-facebook"></i></a>
           <a href=""><i class="fa-brands fa-instagram"></i></a>
           <a href=""><i class="fa-brands fa-twitter"></i></a>
-          <!-- <a href=""><i class="fa-brands fa-gooogle-plus"></i></a> -->
           <a href=""><i class="fa-brands fa-youtube"></i></a>
         </div>
         <div class="footerNav">
           <ul>
-            <li><a href="">Home</a></li>
+            <li><a href="home.html">Home</a></li>
             <li><a href="">News</a></li>
             <li><a href="">Our Team</a></li>
-            <li><a href="">About</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="tel:+1234567890">+1 (123) 456-7890 </a></li>
             <li><a href="mailto:example@example.com">Email us</a></li>
           </ul>

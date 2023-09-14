@@ -1,5 +1,5 @@
 # Art_gallery
-## This is a Art gallery project for INFO6150 Web Design/User Experien Engr using only HTML and CSS.The project is a website of an artist 'Sarah' where she shows her art collection. I have created 4 pages Home(home.html), About(artist.html), Testimoy(artist.html) and Contact(contact.html).
+## This is a Art gallery project for INFO6150 Web Design/User Experien Engr using only HTML and CSS.The project is a website of an artist 'Sarah' where she shows her art collection. I have created 4 pages Home(home.html), About(about.html), Testimony(artist.html) and Contact(contact.html).
 
 ## Pages
 
@@ -27,8 +27,8 @@ Elements Used:
  2. table tag- used to explain the overall biodata of my artist
  3. All elements from header and footer
 
- ### 3. Testimony
-This page shows all the testimonies from the users who are giving a feedback about Sarah's artwork
+ ### 3. Testimony (testimony,html)
+This page shows all the testimonies from the users who are giving a feedback about Sarah's artwork.
 Elements used :
 1. All elements from header and footer.
 
